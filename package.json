@@ -1,0 +1,22 @@
+{
+  "name": "testfidubogota",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npx playwright install && npm install @faker-js/faker"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/axios": "^0.14.0",
+    "@types/node": "^22.0.0",
+    "prettier": "^3.0.0-alpha.6"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "dotenv": "^16.4.5"
+  }
+}
